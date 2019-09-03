@@ -7,8 +7,7 @@ target 'Sync-iOS' do
 
   # Pods for Sync-iOS
 
-  pod 'EncryptedCoreData'
-
+  pod 'EncryptedCoreData', :git => 'https://github.com/Directorpoint/encrypted-core-data', :branch => 'dpMaster'
 end
 
 target 'Sync-macOS' do

@@ -64,8 +64,7 @@ import EncryptedCoreData
 
     @objc public private(set) lazy var persistentStoreCoordinator: NSPersistentStoreCoordinator = {
         let persistentStoreCoordinator = NSPersistentStoreCoordinator(managedObjectModel: self.model)
-        let options = [EncryptedStorePassphraseKey : "test"]
-        try! persistentStoreCoordinator.addPersistentStore(storeType: EncryptedStoreType, bundle: self.modelBundle, modelName: self.modelName, storeName: self.storeName, containerURL: self.containerURL)
+        try! persistentStoreCoordinator.addPersistentStore(storeType: .sqLite, bundle: self.modelBundle, modelName: self.modelName, storeName: self.storeName, containerURL: self.containerURL)
 
         return persistentStoreCoordinator
     }()
@@ -432,9 +431,9 @@ extension NSPersistentStoreCoordinator {
                 }
             }
 
-            let options = [NSMigratePersistentStoresAutomaticallyOption: true, NSInferMappingModelAutomaticallyOption: true, NSSQLitePragmasOption: ["journal_mode": "DELETE"]] as [AnyHashable : Any]
+            let options = [NSMigratePersistentStoresAutomaticallyOption: true, NSInferMappingModelAutomaticallyOption: true, EncryptedStorePassphraseKey : "test", NSSQLitePragmasOption: ["journal_mode": "DELETE"]] as [AnyHashable : Any]
             do {
-                try self.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: options)
+                try self.addPersistentStore(ofType: EncryptedStoreType, configurationName: nil, at: storeURL, options: options)
             } catch {
                 do {
                     try FileManager.default.removeItem(atPath: storePath)
