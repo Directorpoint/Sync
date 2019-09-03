@@ -27,5 +27,4 @@ s.requires_arc = true
 s.source_files = 'Source/**/*'
 s.swift_version = '5.0'
 s.frameworks = 'Foundation', 'CoreData'
-s.dependency 'SQLCipher'
 end

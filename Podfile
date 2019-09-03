@@ -6,7 +6,6 @@ target 'Sync-iOS' do
   use_frameworks!
 
   # Pods for Sync-iOS
-  pod 'SQLCipher'
 end
 
 target 'Sync-macOS' do
