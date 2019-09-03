@@ -1,5 +1,6 @@
 import Foundation
 import CoreData
+import EncryptedCoreData
 
 @objc public enum DataStackStoreType: Int {
     case inMemory, sqLite
@@ -63,7 +64,8 @@ import CoreData
 
     @objc public private(set) lazy var persistentStoreCoordinator: NSPersistentStoreCoordinator = {
         let persistentStoreCoordinator = NSPersistentStoreCoordinator(managedObjectModel: self.model)
-        try! persistentStoreCoordinator.addPersistentStore(storeType: self.storeType, bundle: self.modelBundle, modelName: self.modelName, storeName: self.storeName, containerURL: self.containerURL)
+        let options = [EncryptedStorePassphraseKey : "test"]
+        try! persistentStoreCoordinator.addPersistentStore(storeType: EncryptedStoreType, bundle: self.modelBundle, modelName: self.modelName, storeName: self.storeName, containerURL: self.containerURL)
 
         return persistentStoreCoordinator
     }()

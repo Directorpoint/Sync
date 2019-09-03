@@ -1,0 +1,6 @@
+framework module Pods_Sync_tvOS {
+  umbrella header "Pods-Sync-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
