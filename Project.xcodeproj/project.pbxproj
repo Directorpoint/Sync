@@ -509,10 +509,10 @@
 		1FD688F2231E9E55008121A4 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD688EC231E9E55008121A4 /* EncryptedStore.m */; };
 		1FD688F3231E9E55008121A4 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD688EC231E9E55008121A4 /* EncryptedStore.m */; };
 		1FD688F4231E9E55008121A4 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD688EC231E9E55008121A4 /* EncryptedStore.m */; };
-		1FD688F5231E9E55008121A4 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD688ED231E9E55008121A4 /* EncryptedStore.h */; };
-		1FD688F6231E9E55008121A4 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD688ED231E9E55008121A4 /* EncryptedStore.h */; };
-		1FD688F7231E9E55008121A4 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD688ED231E9E55008121A4 /* EncryptedStore.h */; };
-		1FD688F8231E9E55008121A4 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD688ED231E9E55008121A4 /* EncryptedStore.h */; };
+		1FD6890A231EB251008121A4 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD68909231EB251008121A4 /* EncryptedStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD6890B231EB251008121A4 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD68909231EB251008121A4 /* EncryptedStore.h */; };
+		1FD6890C231EB251008121A4 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD68909231EB251008121A4 /* EncryptedStore.h */; };
+		1FD6890D231EB251008121A4 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD68909231EB251008121A4 /* EncryptedStore.h */; };
 		25A89F821F00ED7E008ADD4B /* Sync+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FF6201F0002A3004A923A /* Sync+ObjC.swift */; };
 		25A89F831F00ED7E008ADD4B /* Sync+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FF6201F0002A3004A923A /* Sync+ObjC.swift */; };
 		25A89F841F00ED7F008ADD4B /* Sync+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FF6201F0002A3004A923A /* Sync+ObjC.swift */; };
@@ -1017,8 +1017,7 @@
 		1AFF18C91FE1F08800C4BC3D /* 457-products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "457-products.json"; sourceTree = "<group>"; };
 		1AFF18CA1FE1F08800C4BC3D /* 457-subcategories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "457-subcategories.json"; sourceTree = "<group>"; };
 		1FD688EC231E9E55008121A4 /* EncryptedStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptedStore.m; sourceTree = "<group>"; };
-		1FD688ED231E9E55008121A4 /* EncryptedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptedStore.h; sourceTree = "<group>"; };
-		1FD688FF231EA1AA008121A4 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		1FD68909231EB251008121A4 /* EncryptedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptedStore.h; sourceTree = "<group>"; };
 		26930180AA2D9091982135A3 /* Pods_Sync_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sync_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6E3BD986C05B52223517B6 /* Pods-Sync-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sync-macOS.debug.xcconfig"; path = "Target Support Files/Pods-Sync-macOS/Pods-Sync-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		42D6472A3BCF8CD604FF989E /* Pods-Sync-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sync-watchOS.debug.xcconfig"; path = "Target Support Files/Pods-Sync-watchOS/Pods-Sync-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1188,8 +1187,7 @@
 		1425D59A1CC65BEB00EC49D4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				1FD688FE231EA181008121A4 /* EncryptedStore */,
-				1FD688ED231E9E55008121A4 /* EncryptedStore.h */,
+				1FD68909231EB251008121A4 /* EncryptedStore.h */,
 				1FD688EC231E9E55008121A4 /* EncryptedStore.m */,
 				445D3BB71D9F932C007F9E26 /* DataFilter */,
 				1467388A1E7ADBA700913C8E /* DataStack */,
@@ -1535,14 +1533,6 @@
 			path = DateParser;
 			sourceTree = "<group>";
 		};
-		1FD688FE231EA181008121A4 /* EncryptedStore */ = {
-			isa = PBXGroup;
-			children = (
-				1FD688FF231EA1AA008121A4 /* module.modulemap */,
-			);
-			path = EncryptedStore;
-			sourceTree = "<group>";
-		};
 		4458519B1E87BAF50025434E /* PropertyMapper */ = {
 			isa = PBXGroup;
 			children = (
@@ -1715,11 +1705,11 @@
 				447409331E87BA4E0035B8DC /* NSManagedObject+PropertyMapperHelpers.h in Headers */,
 				14D93C4E1E4E67A200DED595 /* NSManagedObjectContext+Sync.swift in Headers */,
 				14D93C4F1E4E67A200DED595 /* Result.swift in Headers */,
-				1FD688F5231E9E55008121A4 /* EncryptedStore.h in Headers */,
 				44CFE6871E87BC650068185B /* Inflections.h in Headers */,
 				445851F41E87BB590025434E /* NSEntityDescription+PrimaryKey.h in Headers */,
 				44B212F41E87BD5D00C81949 /* NSPropertyDescription+Sync.h in Headers */,
 				14F627791E7AE6CF001C2EA0 /* DataStack.swift in Headers */,
+				1FD6890A231EB251008121A4 /* EncryptedStore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1739,11 +1729,11 @@
 				4474093E1E87BA4E0035B8DC /* PropertyMapper.h in Headers */,
 				447409361E87BA4E0035B8DC /* NSManagedObject+PropertyMapperHelpers.h in Headers */,
 				14F627771E7AE6B5001C2EA0 /* NSManagedObjectContext+Sync.swift in Headers */,
-				1FD688F8231E9E55008121A4 /* EncryptedStore.h in Headers */,
 				44CFE68A1E87BC650068185B /* Inflections.h in Headers */,
 				445851F71E87BB590025434E /* NSEntityDescription+PrimaryKey.h in Headers */,
 				44B212F71E87BD5D00C81949 /* NSPropertyDescription+Sync.h in Headers */,
 				14F627781E7AE6B5001C2EA0 /* Result.swift in Headers */,
+				1FD6890D231EB251008121A4 /* EncryptedStore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1763,11 +1753,11 @@
 				4474093C1E87BA4E0035B8DC /* PropertyMapper.h in Headers */,
 				44CFE6881E87BC650068185B /* Inflections.h in Headers */,
 				447409341E87BA4E0035B8DC /* NSManagedObject+PropertyMapperHelpers.h in Headers */,
-				1FD688F6231E9E55008121A4 /* EncryptedStore.h in Headers */,
 				14A84E9C1E4E70B900701B8A /* Result.swift in Headers */,
 				445851F51E87BB590025434E /* NSEntityDescription+PrimaryKey.h in Headers */,
 				44B212F51E87BD5D00C81949 /* NSPropertyDescription+Sync.h in Headers */,
 				14F6277A1E7AE6E1001C2EA0 /* DataStack.swift in Headers */,
+				1FD6890B231EB251008121A4 /* EncryptedStore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1787,11 +1777,11 @@
 				4474093D1E87BA4E0035B8DC /* PropertyMapper.h in Headers */,
 				447409351E87BA4E0035B8DC /* NSManagedObject+PropertyMapperHelpers.h in Headers */,
 				14F627681E7AE6B2001C2EA0 /* NSManagedObjectContext+Sync.swift in Headers */,
-				1FD688F7231E9E55008121A4 /* EncryptedStore.h in Headers */,
 				44CFE6891E87BC650068185B /* Inflections.h in Headers */,
 				445851F61E87BB590025434E /* NSEntityDescription+PrimaryKey.h in Headers */,
 				44B212F61E87BD5D00C81949 /* NSPropertyDescription+Sync.h in Headers */,
 				14F627691E7AE6B2001C2EA0 /* Result.swift in Headers */,
+				1FD6890C231EB251008121A4 /* EncryptedStore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2942,7 +2932,6 @@
 				PRODUCT_NAME = Sync;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Source/EncryptedStore";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2973,7 +2962,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = club.syncdb.sync;
 				PRODUCT_NAME = Sync;
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Source/EncryptedStore";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
