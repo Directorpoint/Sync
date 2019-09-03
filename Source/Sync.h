@@ -9,4 +9,3 @@ FOUNDATION_EXPORT const unsigned char SyncVersionString[];
 #import "NSEntityDescription+PrimaryKey.h"
 #import "NSManagedObject+PropertyMapperHelpers.h"
 #import "NSPropertyDescription+Sync.h"
-#import "EncryptedStore.h"
