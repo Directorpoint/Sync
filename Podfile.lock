@@ -1,6 +1,4 @@
 PODS:
-  - EncryptedCoreData (3.1):
-    - SQLCipher (= 4.2.0)
   - SQLCipher (4.2.0):
     - SQLCipher/standard (= 4.2.0)
   - SQLCipher/common (4.2.0)
@@ -8,26 +6,15 @@ PODS:
     - SQLCipher/common
 
 DEPENDENCIES:
-  - EncryptedCoreData (from `https://github.com/Directorpoint/encrypted-core-data`, branch `dpMaster`)
+  - SQLCipher
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - SQLCipher
 
-EXTERNAL SOURCES:
-  EncryptedCoreData:
-    :branch: dpMaster
-    :git: https://github.com/Directorpoint/encrypted-core-data
-
-CHECKOUT OPTIONS:
-  EncryptedCoreData:
-    :commit: af7b1907da77c084a4fc17fcbbd03a8903098856
-    :git: https://github.com/Directorpoint/encrypted-core-data
-
 SPEC CHECKSUMS:
-  EncryptedCoreData: 56d76b5c0f562024d221b45674a84294b776c2e8
   SQLCipher: 0187a2180ac288ea686b670b7141da62cd013b16
 
-PODFILE CHECKSUM: 0432695781caaafbfe90a76fe1e566dcdcea63bf
+PODFILE CHECKSUM: e432950142255320c4d43ab007c8e6bd9d7443a5
 
 COCOAPODS: 1.7.2

@@ -6,8 +6,7 @@ target 'Sync-iOS' do
   use_frameworks!
 
   # Pods for Sync-iOS
-
-  pod 'EncryptedCoreData', :git => 'https://github.com/Directorpoint/encrypted-core-data', :branch => 'dpMaster'
+  pod 'SQLCipher'
 end
 
 target 'Sync-macOS' do

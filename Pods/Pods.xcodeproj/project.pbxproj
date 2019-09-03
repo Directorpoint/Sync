@@ -7,50 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		006DFBA3343B51491D342E659901EBEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CC27CB024D9B726339F703A79A0325 /* Foundation.framework */; };
-		0503DD86CD59FB1732CD288F27FB3DB5 /* SQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E30F89A6E276A8975B2B49F9A19DA07 /* SQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08B4DCEFA29A638C60BF797E797203AA /* Pods-Sync-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C36EC49FBBCC983AAE25E4D7F7C0D86 /* Pods-Sync-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10642EC03C4E22F79A9853CA9BD42E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E9CBCE3F7C53BC1620D3B0D01AC756 /* Foundation.framework */; };
 		14579E3505A577EA8424D1F96ED1CACC /* Pods-Sync-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E7BA3F45DCCCA839A8FBBC48BD78AE /* Pods-Sync-watchOS-dummy.m */; };
-		22EA72F433BBF7E1EA904444FB24F3F1 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAE1607DD3A0365200414970858536A /* EncryptedStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D65BB8A3A52AF37FCB23DA13A5417F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E9CBCE3F7C53BC1620D3B0D01AC756 /* Foundation.framework */; };
 		3C2A24FFCDCBCEBBE4B6344E62A6E5FA /* Pods-Sync-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B23313708DB82EADBECBED2668D32969 /* Pods-Sync-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D214CD3354A4FAC24DF7643BFAC7C4D /* EncryptedCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA560A3A8956EDD1CD2123A1825016 /* EncryptedCoreData-dummy.m */; };
-		4505F219EF4EC35B5B1A4A876EF6CCE9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDAB9C4903704CC09BA9237B6955B7F /* CoreData.framework */; };
-		5607AA675949EE3927F72DD93126EE8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A53E25F6823C3FE7FBE76135172F39 /* Foundation.framework */; };
-		5D570F9643DBEC0D36C5F9DA15986C46 /* SQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EDCDBFCAE15684198820ACF59AA93B /* SQLCipher-dummy.m */; };
+		540FE0BFC1006E8A12A003FC6FB76359 /* Pods-Sync-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C36EC49FBBCC983AAE25E4D7F7C0D86 /* Pods-Sync-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5607AA675949EE3927F72DD93126EE8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CAA6D8A595B919F13E6EA62206E683 /* Foundation.framework */; };
+		571C83627C6BA725F37A2A7EC02F6F65 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 2239D3F361E9D783BB106C67E9C611BC /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DNDEBUG -DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_SOUNDEX -DSQLITE_THREADSAFE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_MEMORY_MANAGEMENT -DSQLITE_ENABLE_LOAD_EXTENSION -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS4_UNICODE61 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_UNLOCK_NOTIFY -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS5 -DSQLCIPHER_CRYPTO_CC -DHAVE_USLEEP=1 -DSQLITE_MAX_VARIABLE_NUMBER=99999 -fno-objc-arc"; }; };
 		62ACC6CE3CEDEE789E895361DDEEA6C5 /* Pods-Sync-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB178E8E919C232D0D0D4CAB490B00A /* Pods-Sync-tvOS-dummy.m */; };
-		639EE83B469D815CD204B7B7826F834E /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865BA993644CE4E023E035987D95482E /* SQLCipher.framework */; };
-		67005C391DB88348DEAA36181DC1239D /* Pods-Sync-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 018506E4E47316F3E8BD88B840974BF7 /* Pods-Sync-iOS-dummy.m */; };
-		683D284700F8755BCEC308B8196B1DB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CC27CB024D9B726339F703A79A0325 /* Foundation.framework */; };
-		7592D9921C94BC42B2B4EE8E3FD72A8A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6ECE62D6FDC1B0376ED421D6FBA5994 /* Security.framework */; };
 		7DD5BBF5D74AE952CECF0C8B480712D1 /* Pods-Sync-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BDDDB81D3B37D759B83BBC37E27F51 /* Pods-Sync-macOS-dummy.m */; };
-		804A9F7195C557A38B0DFAEDBE98DC7B /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC9681234B8E4FF4E4A8BFF83BFC1C8 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D7758526E385C0370BDEEA92A73349A /* EncryptedCoreData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A0749E84679A9578523D014D724AA5 /* EncryptedCoreData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E2075877AB7AC9BBD207D0836A04EDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F65807FC96FD994EBA2CD53D22AA25 /* Cocoa.framework */; };
-		98FB34941D195CC720E21CD7D4DCCEB0 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5758A5CDA0D122A96379FE4DFD5E518F /* EncryptedStore.m */; };
-		A57BAF75AFE988B73C37C40ED4B5818C /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 055CCF1306D11331D4E47C8421DA64A3 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DNDEBUG -DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_SOUNDEX -DSQLITE_THREADSAFE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_MEMORY_MANAGEMENT -DSQLITE_ENABLE_LOAD_EXTENSION -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS4_UNICODE61 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_UNLOCK_NOTIFY -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS5 -DSQLCIPHER_CRYPTO_CC -DHAVE_USLEEP=1 -DSQLITE_MAX_VARIABLE_NUMBER=99999 -fno-objc-arc"; }; };
+		8E2075877AB7AC9BBD207D0836A04EDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636917003AE2C4FC74722EAD7C01B5C4 /* Cocoa.framework */; };
+		9B268EA951DEA682D97731BF8AD26AF3 /* SQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 927B459C61AF8C9C4F945722E9405611 /* SQLCipher-dummy.m */; };
 		AB5B363334353E5BDF1FB11FFB2E744F /* Pods-Sync-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FD285099651F3513F67D8E3CC51E28 /* Pods-Sync-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B713D78AD1B410F790A639DC8A48AF61 /* Pods-Sync-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01209560B043485E7FFF3555F46750BC /* Pods-Sync-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF223732990A3144A6BDFBB0E547BC19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CC27CB024D9B726339F703A79A0325 /* Foundation.framework */; };
-		CFDA7ED7507FE9E20FF22862CB9A04AC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6ECE62D6FDC1B0376ED421D6FBA5994 /* Security.framework */; };
-		E77105C20FFE3C18D26BF8458FF8C9D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2C895F04603258F9AC4C932F2F2B91 /* Foundation.framework */; };
+		B7863592DC95C2B3E284E796603D2945 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E293E392E64F4509C3CD5F6D0526C28 /* Security.framework */; };
+		B9A95AE6E04A397A19451FA1FDD993F6 /* Pods-Sync-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 018506E4E47316F3E8BD88B840974BF7 /* Pods-Sync-iOS-dummy.m */; };
+		E77105C20FFE3C18D26BF8458FF8C9D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8C6CB535550D89521FE72991813D42 /* Foundation.framework */; };
+		E79D2AF941C87D618F178EB5266F44B7 /* SQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD1E9E52CBD4C177C09041C130F944C /* SQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA19EA16BF3488A77BD3589F62F49642 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 6832924E3BB055B366645F771FC35F1A /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6F67A0FA8DB6391294C5A7B04FD62364 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42F6EA4EBF9A61B5E1C05BE009E10B9B;
-			remoteInfo = EncryptedCoreData;
-		};
-		A19F716975469A80948AFFD6A2641F1F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D21962D0DE148A440FADB55935BD4264;
-			remoteInfo = SQLCipher;
-		};
-		A78B9088FF64FD63FC526A5D8E0D02E7 /* PBXContainerItemProxy */ = {
+		ADFA76B8C0CC12ABB3CC26E5C0129377 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -63,76 +41,63 @@
 		01209560B043485E7FFF3555F46750BC /* Pods-Sync-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sync-macOS-umbrella.h"; sourceTree = "<group>"; };
 		018506E4E47316F3E8BD88B840974BF7 /* Pods-Sync-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sync-iOS-dummy.m"; sourceTree = "<group>"; };
 		04396EC092E78D4108124C4BD91D3C10 /* Pods-Sync-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sync-macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		047D5EB2955DBBC974E5B61BE90AE67D /* EncryptedCoreData-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EncryptedCoreData-prefix.pch"; sourceTree = "<group>"; };
-		055CCF1306D11331D4E47C8421DA64A3 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; path = sqlite3.c; sourceTree = "<group>"; };
 		07CCD3CBDB66DC42BFEB9FE94F9B0E4E /* Pods-Sync-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sync-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
-		0BFA560A3A8956EDD1CD2123A1825016 /* EncryptedCoreData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EncryptedCoreData-dummy.m"; sourceTree = "<group>"; };
 		0FB178E8E919C232D0D0D4CAB490B00A /* Pods-Sync-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sync-tvOS-dummy.m"; sourceTree = "<group>"; };
 		131548AB3D8830BB0B027FA20A6677C1 /* Pods-Sync-macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sync-macOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		183607AC76C34219AC491DDE732E5F2F /* Pods-Sync-macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sync-macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C1DC4A9BE19E672D33C31D9C2F806BD /* SQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-prefix.pch"; sourceTree = "<group>"; };
 		1FD5F5B0E4809A3AE2ECDE142F44A6BB /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLCipher.framework; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2809AD5E157CA729CA8419AFBC17F6C8 /* SQLCipher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLCipher-Info.plist"; sourceTree = "<group>"; };
+		2239D3F361E9D783BB106C67E9C611BC /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; path = sqlite3.c; sourceTree = "<group>"; };
 		2C36EC49FBBCC983AAE25E4D7F7C0D86 /* Pods-Sync-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sync-iOS-umbrella.h"; sourceTree = "<group>"; };
-		2FDAB9C4903704CC09BA9237B6955B7F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		30BDDDB81D3B37D759B83BBC37E27F51 /* Pods-Sync-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sync-macOS-dummy.m"; sourceTree = "<group>"; };
 		32FD285099651F3513F67D8E3CC51E28 /* Pods-Sync-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sync-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		3BFB8F58426C59B8EBF6BB98080FE13D /* SQLCipher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLCipher.modulemap; sourceTree = "<group>"; };
 		3F1F99D67CC2D1B18D3DF8A8B2B1859C /* Pods-Sync-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sync-watchOS.release.xcconfig"; sourceTree = "<group>"; };
-		3F52CCF4FBA714B94F9780F42ECE5EAA /* EncryptedCoreData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EncryptedCoreData.modulemap; sourceTree = "<group>"; };
-		4600D726D9A6E92115612D6201D885E5 /* EncryptedCoreData-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EncryptedCoreData-Info.plist"; sourceTree = "<group>"; };
-		52844477CEE03CF70C82C12E881E0916 /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EncryptedCoreData.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5758A5CDA0D122A96379FE4DFD5E518F /* EncryptedStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EncryptedStore.m; path = "Incremental Store/EncryptedStore.m"; sourceTree = "<group>"; };
-		5D131F126A41C5F6FC2322993A8E745A /* SQLCipher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLCipher.modulemap; sourceTree = "<group>"; };
-		5E30F89A6E276A8975B2B49F9A19DA07 /* SQLCipher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-umbrella.h"; sourceTree = "<group>"; };
+		51D75678F9F219657BF94165D7A77C68 /* SQLCipher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLCipher.xcconfig; sourceTree = "<group>"; };
 		5E59272E4962FD48E66AFF4E498DE7C7 /* Pods-Sync-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sync-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		61E7BA3F45DCCCA839A8FBBC48BD78AE /* Pods-Sync-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sync-watchOS-dummy.m"; sourceTree = "<group>"; };
+		636917003AE2C4FC74722EAD7C01B5C4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		667134A5012EA14AF5CF0DB1E025B227 /* Pods_Sync_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sync_tvOS.framework; path = "Pods-Sync-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6832924E3BB055B366645F771FC35F1A /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
 		6A37DD3292EBF311C2232FEFC6B4E19A /* Pods-Sync-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sync-iOS-Info.plist"; sourceTree = "<group>"; };
-		6DC9681234B8E4FF4E4A8BFF83BFC1C8 /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
 		6EAC9400D29AA7E42CC30CBFA52C9B20 /* Pods-Sync-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sync-tvOS.modulemap"; sourceTree = "<group>"; };
 		74A9D206FE4E6A6A739007440DBEF6CC /* Pods_Sync_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sync_macOS.framework; path = "Pods-Sync-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7594EF82DB291026AA06608C62956A1A /* Pods_Sync_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sync_watchOS.framework; path = "Pods-Sync-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FDB80E9142403B6C07AA985F88315A /* Pods-Sync-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sync-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		7CD9C1D670965CFE0CE022D4EDF660E8 /* Pods-Sync-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sync-iOS.modulemap"; sourceTree = "<group>"; };
+		7E293E392E64F4509C3CD5F6D0526C28 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		823DF106FD831F68E807FCEC8FD20A00 /* Pods-Sync-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sync-watchOS-Info.plist"; sourceTree = "<group>"; };
-		83F65807FC96FD994EBA2CD53D22AA25 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		847D5A8C8A2DC212B2A42D819F7565E2 /* SQLCipher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLCipher.xcconfig; sourceTree = "<group>"; };
-		865BA993644CE4E023E035987D95482E /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88ECE6D752CC8476BDB82DFDF97C4D4E /* SQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-prefix.pch"; sourceTree = "<group>"; };
+		8A8C6CB535550D89521FE72991813D42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		927B459C61AF8C9C4F945722E9405611 /* SQLCipher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLCipher-dummy.m"; sourceTree = "<group>"; };
+		92E9CBCE3F7C53BC1620D3B0D01AC756 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		95672BEA8912C2F1B6474017886AD80B /* Pods-Sync-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sync-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		967E2685517DF73B28FD5CF0569D321D /* Pods-Sync-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sync-tvOS-Info.plist"; sourceTree = "<group>"; };
+		9BD1E9E52CBD4C177C09041C130F944C /* SQLCipher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A18BACEFA2EA4D7ECD5E04F65289135C /* Pods-Sync-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sync-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		A2EDCDBFCAE15684198820ACF59AA93B /* SQLCipher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLCipher-dummy.m"; sourceTree = "<group>"; };
 		AB449010FDE7B3FEE79AD6A562045F50 /* Pods-Sync-watchOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sync-watchOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ADAE1607DD3A0365200414970858536A /* EncryptedStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EncryptedStore.h; path = "Incremental Store/EncryptedStore.h"; sourceTree = "<group>"; };
 		AE8C124A80020C90B73B9BD23EFEAA54 /* Pods-Sync-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sync-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		AF648A1B513D8854E7E0C6B4A15BF965 /* Pods-Sync-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sync-macOS-Info.plist"; sourceTree = "<group>"; };
 		B23313708DB82EADBECBED2668D32969 /* Pods-Sync-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sync-tvOS-umbrella.h"; sourceTree = "<group>"; };
-		B6ECE62D6FDC1B0376ED421D6FBA5994 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		B9CC27CB024D9B726339F703A79A0325 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C0A53E25F6823C3FE7FBE76135172F39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C7755E03DF414B06E39480D20B3A0F3B /* Pods-Sync-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sync-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8274BED6B25BAEFBCB092B0C739BEDA /* Pods-Sync-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sync-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C9CAA6D8A595B919F13E6EA62206E683 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D3FAF75B8C426BC6FD98DFD0EDF9F01E /* Pods_Sync_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sync_iOS.framework; path = "Pods-Sync-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7FD73F26518939336609AB299656EE /* Pods-Sync-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sync-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DFEA31F9C78C5CC4F54FF33912EA485E /* Pods-Sync-watchOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sync-watchOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		E3A0749E84679A9578523D014D724AA5 /* EncryptedCoreData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EncryptedCoreData-umbrella.h"; sourceTree = "<group>"; };
 		E41984BBE4DAEE755B718F02CFACB090 /* Pods-Sync-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sync-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E7300088ADD6C62096B7AF89A98A1125 /* Pods-Sync-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sync-macOS.modulemap"; sourceTree = "<group>"; };
 		EB1566BA20B5EFBAB4C2F1F345C2337D /* Pods-Sync-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sync-watchOS.modulemap"; sourceTree = "<group>"; };
-		F512E75532F65CF9A4916EA58C03F919 /* EncryptedCoreData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EncryptedCoreData.xcconfig; sourceTree = "<group>"; };
-		FC2C895F04603258F9AC4C932F2F2B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FF6E81F47B2FAA44A206227CDC3C32E9 /* SQLCipher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLCipher-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21CC38F90C58A5A2C7202C5F7BC74D9E /* Frameworks */ = {
+		113854C4C919E7BAC08318CBA31E7570 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4505F219EF4EC35B5B1A4A876EF6CCE9 /* CoreData.framework in Frameworks */,
-				CF223732990A3144A6BDFBB0E547BC19 /* Foundation.framework in Frameworks */,
-				7592D9921C94BC42B2B4EE8E3FD72A8A /* Security.framework in Frameworks */,
-				639EE83B469D815CD204B7B7826F834E /* SQLCipher.framework in Frameworks */,
+				1D65BB8A3A52AF37FCB23DA13A5417F1 /* Foundation.framework in Frameworks */,
+				B7863592DC95C2B3E284E796603D2945 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +109,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4822ECE746A2D17E3A828B5E250EECFC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				006DFBA3343B51491D342E659901EBEE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4D8E36A5CB6E6B6E96516A2B410DA077 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,12 +117,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C19BF91AA32892431C9C4085CD93B666 /* Frameworks */ = {
+		90958E582169B408C37C7671F2515B3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				683D284700F8755BCEC308B8196B1DB0 /* Foundation.framework in Frameworks */,
-				CFDA7ED7507FE9E20FF22862CB9A04AC /* Security.framework in Frameworks */,
+				10642EC03C4E22F79A9853CA9BD42E3B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,38 +136,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		175435CAC6F8B653455003A2E8FEF9C2 /* Frameworks */ = {
+		0850CF79565ED141B0F1197D84609615 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				865BA993644CE4E023E035987D95482E /* SQLCipher.framework */,
-				7052CFA9C92F864BB9620535F546CF92 /* iOS */,
-				997EC48AAD3A8742FBF1F16A622E9CDA /* OS X */,
-				F67C01566BEA1D12E42CB96AF6113CE0 /* tvOS */,
-				4CC54C10EC3646BC8695EB7D643A1D19 /* watchOS */,
+				C9CAA6D8A595B919F13E6EA62206E683 /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = tvOS;
 			sourceTree = "<group>";
 		};
-		2C74D08E8FC24E70F3DAF3A446DD6B12 /* Products */ = {
+		2786E10E04E296898D7CEB39338F2F82 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				52844477CEE03CF70C82C12E881E0916 /* EncryptedCoreData.framework */,
-				D3FAF75B8C426BC6FD98DFD0EDF9F01E /* Pods_Sync_iOS.framework */,
-				74A9D206FE4E6A6A739007440DBEF6CC /* Pods_Sync_macOS.framework */,
-				667134A5012EA14AF5CF0DB1E025B227 /* Pods_Sync_tvOS.framework */,
-				7594EF82DB291026AA06608C62956A1A /* Pods_Sync_watchOS.framework */,
-				1FD5F5B0E4809A3AE2ECDE142F44A6BB /* SQLCipher.framework */,
+				3BFB8F58426C59B8EBF6BB98080FE13D /* SQLCipher.modulemap */,
+				51D75678F9F219657BF94165D7A77C68 /* SQLCipher.xcconfig */,
+				927B459C61AF8C9C4F945722E9405611 /* SQLCipher-dummy.m */,
+				FF6E81F47B2FAA44A206227CDC3C32E9 /* SQLCipher-Info.plist */,
+				1C1DC4A9BE19E672D33C31D9C2F806BD /* SQLCipher-prefix.pch */,
+				9BD1E9E52CBD4C177C09041C130F944C /* SQLCipher-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/SQLCipher";
 			sourceTree = "<group>";
 		};
-		31C5BB2F7EDF9198028356D95C1E0041 /* Pods */ = {
+		2BD55A28671064D433E9D7A4F4456D9E /* SQLCipher */ = {
 			isa = PBXGroup;
 			children = (
-				7319EF5B0BD669C4A7F6526E776B46DD /* EncryptedCoreData */,
-				439626DE34C422C5985C60CDD98C70DE /* SQLCipher */,
+				C0F856486C30892AA1E142B26FEE0E2E /* common */,
+				2786E10E04E296898D7CEB39338F2F82 /* Support Files */,
 			);
-			name = Pods;
+			name = SQLCipher;
+			path = SQLCipher;
 			sourceTree = "<group>";
 		};
 		3A8BF9BAF193A8E30CD1B7508A444B0B /* Pods-Sync-watchOS */ = {
@@ -241,43 +195,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		439626DE34C422C5985C60CDD98C70DE /* SQLCipher */ = {
+		40C26FC94D0EFA0C74924D2285A22FBF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8CCA4BBEE86A87489CE9DE5665718F75 /* common */,
-				C4916C64B66DAC93EC10BF09E8DDEC9C /* Support Files */,
-			);
-			name = SQLCipher;
-			path = SQLCipher;
-			sourceTree = "<group>";
-		};
-		4CC54C10EC3646BC8695EB7D643A1D19 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				FC2C895F04603258F9AC4C932F2F2B91 /* Foundation.framework */,
-			);
-			name = watchOS;
-			sourceTree = "<group>";
-		};
-		7052CFA9C92F864BB9620535F546CF92 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				2FDAB9C4903704CC09BA9237B6955B7F /* CoreData.framework */,
-				B9CC27CB024D9B726339F703A79A0325 /* Foundation.framework */,
-				B6ECE62D6FDC1B0376ED421D6FBA5994 /* Security.framework */,
+				92E9CBCE3F7C53BC1620D3B0D01AC756 /* Foundation.framework */,
+				7E293E392E64F4509C3CD5F6D0526C28 /* Security.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7319EF5B0BD669C4A7F6526E776B46DD /* EncryptedCoreData */ = {
+		514FF254F29CE42E62ECCCBD7BE283C8 /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				ADAE1607DD3A0365200414970858536A /* EncryptedStore.h */,
-				5758A5CDA0D122A96379FE4DFD5E518F /* EncryptedStore.m */,
-				EF09CE56AEE89F647F58D6A49708279C /* Support Files */,
+				636917003AE2C4FC74722EAD7C01B5C4 /* Cocoa.framework */,
 			);
-			name = EncryptedCoreData;
-			path = EncryptedCoreData;
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		6746CCF30CAE34654B19DDA6B383D05D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BD55A28671064D433E9D7A4F4456D9E /* SQLCipher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6EBCABB2751A2CF539D6125589F5C007 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A8C6CB535550D89521FE72991813D42 /* Foundation.framework */,
+			);
+			name = watchOS;
 			sourceTree = "<group>";
 		};
 		79EF71A3488819E1098E012EFF595A5E /* Pods-Sync-tvOS */ = {
@@ -296,46 +244,47 @@
 			path = "Target Support Files/Pods-Sync-tvOS";
 			sourceTree = "<group>";
 		};
-		8CCA4BBEE86A87489CE9DE5665718F75 /* common */ = {
+		A297D248C3EC6D9EF408EA5B0CF5F429 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				055CCF1306D11331D4E47C8421DA64A3 /* sqlite3.c */,
-				6DC9681234B8E4FF4E4A8BFF83BFC1C8 /* sqlite3.h */,
+				D3FAF75B8C426BC6FD98DFD0EDF9F01E /* Pods_Sync_iOS.framework */,
+				74A9D206FE4E6A6A739007440DBEF6CC /* Pods_Sync_macOS.framework */,
+				667134A5012EA14AF5CF0DB1E025B227 /* Pods_Sync_tvOS.framework */,
+				7594EF82DB291026AA06608C62956A1A /* Pods_Sync_watchOS.framework */,
+				1FD5F5B0E4809A3AE2ECDE142F44A6BB /* SQLCipher.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0F856486C30892AA1E142B26FEE0E2E /* common */ = {
+			isa = PBXGroup;
+			children = (
+				2239D3F361E9D783BB106C67E9C611BC /* sqlite3.c */,
+				6832924E3BB055B366645F771FC35F1A /* sqlite3.h */,
 			);
 			name = common;
-			sourceTree = "<group>";
-		};
-		997EC48AAD3A8742FBF1F16A622E9CDA /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				83F65807FC96FD994EBA2CD53D22AA25 /* Cocoa.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
-		C4916C64B66DAC93EC10BF09E8DDEC9C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5D131F126A41C5F6FC2322993A8E745A /* SQLCipher.modulemap */,
-				847D5A8C8A2DC212B2A42D819F7565E2 /* SQLCipher.xcconfig */,
-				A2EDCDBFCAE15684198820ACF59AA93B /* SQLCipher-dummy.m */,
-				2809AD5E157CA729CA8419AFBC17F6C8 /* SQLCipher-Info.plist */,
-				88ECE6D752CC8476BDB82DFDF97C4D4E /* SQLCipher-prefix.pch */,
-				5E30F89A6E276A8975B2B49F9A19DA07 /* SQLCipher-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SQLCipher";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				175435CAC6F8B653455003A2E8FEF9C2 /* Frameworks */,
-				31C5BB2F7EDF9198028356D95C1E0041 /* Pods */,
-				2C74D08E8FC24E70F3DAF3A446DD6B12 /* Products */,
+				D589AD3ED12F2601ECE540F1B890D439 /* Frameworks */,
+				6746CCF30CAE34654B19DDA6B383D05D /* Pods */,
+				A297D248C3EC6D9EF408EA5B0CF5F429 /* Products */,
 				3CC2D7EB77539B22B42C303E6AE6C3AB /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D589AD3ED12F2601ECE540F1B890D439 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40C26FC94D0EFA0C74924D2285A22FBF /* iOS */,
+				514FF254F29CE42E62ECCCBD7BE283C8 /* OS X */,
+				0850CF79565ED141B0F1197D84609615 /* tvOS */,
+				6EBCABB2751A2CF539D6125589F5C007 /* watchOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E8E4857448537C509E04CF22A03DDF6B /* Pods-Sync-macOS */ = {
@@ -352,28 +301,6 @@
 			);
 			name = "Pods-Sync-macOS";
 			path = "Target Support Files/Pods-Sync-macOS";
-			sourceTree = "<group>";
-		};
-		EF09CE56AEE89F647F58D6A49708279C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3F52CCF4FBA714B94F9780F42ECE5EAA /* EncryptedCoreData.modulemap */,
-				F512E75532F65CF9A4916EA58C03F919 /* EncryptedCoreData.xcconfig */,
-				0BFA560A3A8956EDD1CD2123A1825016 /* EncryptedCoreData-dummy.m */,
-				4600D726D9A6E92115612D6201D885E5 /* EncryptedCoreData-Info.plist */,
-				047D5EB2955DBBC974E5B61BE90AE67D /* EncryptedCoreData-prefix.pch */,
-				E3A0749E84679A9578523D014D724AA5 /* EncryptedCoreData-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/EncryptedCoreData";
-			sourceTree = "<group>";
-		};
-		F67C01566BEA1D12E42CB96AF6113CE0 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				C0A53E25F6823C3FE7FBE76135172F39 /* Foundation.framework */,
-			);
-			name = tvOS;
 			sourceTree = "<group>";
 		};
 		F8FC82DB5984B38245BC3251B2601B00 /* Pods-Sync-iOS */ = {
@@ -395,21 +322,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		08B7FA79F331439229046AEFE36C6B26 /* Headers */ = {
+		7A0ED2C32149A50012214E3B441C07A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D7758526E385C0370BDEEA92A73349A /* EncryptedCoreData-umbrella.h in Headers */,
-				22EA72F433BBF7E1EA904444FB24F3F1 /* EncryptedStore.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		445CE4482EC5796263394DCD59B4C5B8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0503DD86CD59FB1732CD288F27FB3DB5 /* SQLCipher-umbrella.h in Headers */,
-				804A9F7195C557A38B0DFAEDBE98DC7B /* sqlite3.h in Headers */,
+				540FE0BFC1006E8A12A003FC6FB76359 /* Pods-Sync-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,14 +335,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB5B363334353E5BDF1FB11FFB2E744F /* Pods-Sync-watchOS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B07AB1C3212182541AEA165129DB4B3E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08B4DCEFA29A638C60BF797E797203AA /* Pods-Sync-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,42 +354,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F38A604A5A101D9E73C35EF7B88FF618 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79D2AF941C87D618F178EB5266F44B7 /* SQLCipher-umbrella.h in Headers */,
+				EA19EA16BF3488A77BD3589F62F49642 /* sqlite3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		42F6EA4EBF9A61B5E1C05BE009E10B9B /* EncryptedCoreData */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB8DC9FE9EA5729EE86B9044E37C55C0 /* Build configuration list for PBXNativeTarget "EncryptedCoreData" */;
-			buildPhases = (
-				08B7FA79F331439229046AEFE36C6B26 /* Headers */,
-				8193405F9FA92E9FE73EF0237922D29D /* Sources */,
-				21CC38F90C58A5A2C7202C5F7BC74D9E /* Frameworks */,
-				21FB184D443DFD0A2E97235C4AF38DE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3E676F57AA8C38500D2471A83D801687 /* PBXTargetDependency */,
-			);
-			name = EncryptedCoreData;
-			productName = EncryptedCoreData;
-			productReference = 52844477CEE03CF70C82C12E881E0916 /* EncryptedCoreData.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5009CEED94E816C25029CE7ADBE92949 /* Pods-Sync-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2179D59C7CDB581838DDDBA9EBF6CA28 /* Build configuration list for PBXNativeTarget "Pods-Sync-iOS" */;
+			buildConfigurationList = F9EA98A00CD457CC422E63A6E6895696 /* Build configuration list for PBXNativeTarget "Pods-Sync-iOS" */;
 			buildPhases = (
-				B07AB1C3212182541AEA165129DB4B3E /* Headers */,
-				0A4439866C2364EB1E98EA9E1B69121F /* Sources */,
-				4822ECE746A2D17E3A828B5E250EECFC /* Frameworks */,
-				BEBF8CC518140D595C0607586DB53446 /* Resources */,
+				7A0ED2C32149A50012214E3B441C07A2 /* Headers */,
+				DA1C2EC25B883B717C30DA883CEFAEB3 /* Sources */,
+				90958E582169B408C37C7671F2515B3B /* Frameworks */,
+				83D178B599DE334B915577945BDA9FB0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0AB8CCA33ED7A3D6141831BEFB59EB15 /* PBXTargetDependency */,
-				D8297F0088A9374CAF59C3F3AA064477 /* PBXTargetDependency */,
+				2004DE5EDE51B75DC74F26EB63D4459E /* PBXTargetDependency */,
 			);
 			name = "Pods-Sync-iOS";
 			productName = "Pods-Sync-iOS";
@@ -525,12 +423,12 @@
 		};
 		D21962D0DE148A440FADB55935BD4264 /* SQLCipher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B765BDCC444AE3BDDDE71DA3525FAB0 /* Build configuration list for PBXNativeTarget "SQLCipher" */;
+			buildConfigurationList = 69769FE53659DAB73B012075B8C32081 /* Build configuration list for PBXNativeTarget "SQLCipher" */;
 			buildPhases = (
-				445CE4482EC5796263394DCD59B4C5B8 /* Headers */,
-				54901E9D4E22B0CA624E4079FAF6D5FA /* Sources */,
-				C19BF91AA32892431C9C4085CD93B666 /* Frameworks */,
-				402E2D4C2508703372020D54E86D9305 /* Resources */,
+				F38A604A5A101D9E73C35EF7B88FF618 /* Headers */,
+				D92A99AA66DAAB09B404CA02BC884EE8 /* Sources */,
+				113854C4C919E7BAC08318CBA31E7570 /* Frameworks */,
+				31DEE6BC7FE5C85ED82FDC7BD39D5471 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -576,11 +474,10 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2C74D08E8FC24E70F3DAF3A446DD6B12 /* Products */;
+			productRefGroup = A297D248C3EC6D9EF408EA5B0CF5F429 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42F6EA4EBF9A61B5E1C05BE009E10B9B /* EncryptedCoreData */,
 				5009CEED94E816C25029CE7ADBE92949 /* Pods-Sync-iOS */,
 				C09B49C95A04EA4681FB05876D27679A /* Pods-Sync-macOS */,
 				DBC3020E36DC5DA85E5BBA589DD7EEA3 /* Pods-Sync-tvOS */,
@@ -591,7 +488,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		21FB184D443DFD0A2E97235C4AF38DE9 /* Resources */ = {
+		31DEE6BC7FE5C85ED82FDC7BD39D5471 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -605,13 +502,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		402E2D4C2508703372020D54E86D9305 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		57F4D3B3719246797D216EF1BC2BF30A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -619,14 +509,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3FB8B6AE92540547D3B4F940C93A541 /* Resources */ = {
+		83D178B599DE334B915577945BDA9FB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEBF8CC518140D595C0607586DB53446 /* Resources */ = {
+		B3FB8B6AE92540547D3B4F940C93A541 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -644,37 +534,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A4439866C2364EB1E98EA9E1B69121F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67005C391DB88348DEAA36181DC1239D /* Pods-Sync-iOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		294713BE3E233B3F38EFAAC98470C8F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7DD5BBF5D74AE952CECF0C8B480712D1 /* Pods-Sync-macOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		54901E9D4E22B0CA624E4079FAF6D5FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D570F9643DBEC0D36C5F9DA15986C46 /* SQLCipher-dummy.m in Sources */,
-				A57BAF75AFE988B73C37C40ED4B5818C /* sqlite3.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8193405F9FA92E9FE73EF0237922D29D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D214CD3354A4FAC24DF7643BFAC7C4D /* EncryptedCoreData-dummy.m in Sources */,
-				98FB34941D195CC720E21CD7D4DCCEB0 /* EncryptedStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,26 +550,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D92A99AA66DAAB09B404CA02BC884EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B268EA951DEA682D97731BF8AD26AF3 /* SQLCipher-dummy.m in Sources */,
+				571C83627C6BA725F37A2A7EC02F6F65 /* sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1C2EC25B883B717C30DA883CEFAEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A95AE6E04A397A19451FA1FDD993F6 /* Pods-Sync-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0AB8CCA33ED7A3D6141831BEFB59EB15 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EncryptedCoreData;
-			target = 42F6EA4EBF9A61B5E1C05BE009E10B9B /* EncryptedCoreData */;
-			targetProxy = 6F67A0FA8DB6391294C5A7B04FD62364 /* PBXContainerItemProxy */;
-		};
-		3E676F57AA8C38500D2471A83D801687 /* PBXTargetDependency */ = {
+		2004DE5EDE51B75DC74F26EB63D4459E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SQLCipher;
 			target = D21962D0DE148A440FADB55935BD4264 /* SQLCipher */;
-			targetProxy = A78B9088FF64FD63FC526A5D8E0D02E7 /* PBXContainerItemProxy */;
-		};
-		D8297F0088A9374CAF59C3F3AA064477 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SQLCipher;
-			target = D21962D0DE148A440FADB55935BD4264 /* SQLCipher */;
-			targetProxy = A19F716975469A80948AFFD6A2641F1F /* PBXContainerItemProxy */;
+			targetProxy = ADFA76B8C0CC12ABB3CC26E5C0129377 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -780,6 +649,38 @@
 			};
 			name = Debug;
 		};
+		2DF0F32DE5BB6C12B3C7431D3654E2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D75678F9F219657BF94165D7A77C68 /* SQLCipher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/SQLCipher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				PRODUCT_MODULE_NAME = SQLCipher;
+				PRODUCT_NAME = SQLCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		48357685F9415A5D31374BE8489B49B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -844,39 +745,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		523757562E01505802ACBD3C9AD27E9B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E41984BBE4DAEE755B718F02CFACB090 /* Pods-Sync-iOS.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Sync-iOS/Pods-Sync-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Sync-iOS/Pods-Sync-iOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1010,135 +878,6 @@
 			};
 			name = Debug;
 		};
-		7FB36BCE31D87AA19A93F5CFEADC9F6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F512E75532F65CF9A4916EA58C03F919 /* EncryptedCoreData.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EncryptedCoreData/EncryptedCoreData-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EncryptedCoreData/EncryptedCoreData-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EncryptedCoreData/EncryptedCoreData.modulemap";
-				PRODUCT_MODULE_NAME = EncryptedCoreData;
-				PRODUCT_NAME = EncryptedCoreData;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		84D76C7AFCAC694838EA98978E952716 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE8C124A80020C90B73B9BD23EFEAA54 /* Pods-Sync-iOS.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Sync-iOS/Pods-Sync-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Sync-iOS/Pods-Sync-iOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B1C2C6A6ECE5C25CA119FC9116511DAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F512E75532F65CF9A4916EA58C03F919 /* EncryptedCoreData.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EncryptedCoreData/EncryptedCoreData-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EncryptedCoreData/EncryptedCoreData-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EncryptedCoreData/EncryptedCoreData.modulemap";
-				PRODUCT_MODULE_NAME = EncryptedCoreData;
-				PRODUCT_NAME = EncryptedCoreData;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B248C40FD550DABB7056BCEA68BC52FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 847D5A8C8A2DC212B2A42D819F7565E2 /* SQLCipher.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SQLCipher/SQLCipher-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
-				PRODUCT_MODULE_NAME = SQLCipher;
-				PRODUCT_NAME = SQLCipher;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BBAA81E83448CE2720B2A3F9CE2A8D70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F1F99D67CC2D1B18D3DF8A8B2B1859C /* Pods-Sync-watchOS.release.xcconfig */;
@@ -1174,9 +913,9 @@
 			};
 			name = Release;
 		};
-		C6B88AF433F0CB49528D2C52832B49DC /* Debug */ = {
+		D6BC65474AB8C035E56C1CDBDF9C6C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 847D5A8C8A2DC212B2A42D819F7565E2 /* SQLCipher.xcconfig */;
+			baseConfigurationReference = 51D75678F9F219657BF94165D7A77C68 /* SQLCipher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1241,32 +980,90 @@
 			};
 			name = Debug;
 		};
+		E52BFDFA2071894ECA002A00CB944433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8C124A80020C90B73B9BD23EFEAA54 /* Pods-Sync-iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sync-iOS/Pods-Sync-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sync-iOS/Pods-Sync-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC078C156980D75B536CACD715F76587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41984BBE4DAEE755B718F02CFACB090 /* Pods-Sync-iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sync-iOS/Pods-Sync-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sync-iOS/Pods-Sync-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B765BDCC444AE3BDDDE71DA3525FAB0 /* Build configuration list for PBXNativeTarget "SQLCipher" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C6B88AF433F0CB49528D2C52832B49DC /* Debug */,
-				B248C40FD550DABB7056BCEA68BC52FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2179D59C7CDB581838DDDBA9EBF6CA28 /* Build configuration list for PBXNativeTarget "Pods-Sync-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				523757562E01505802ACBD3C9AD27E9B /* Debug */,
-				84D76C7AFCAC694838EA98978E952716 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48357685F9415A5D31374BE8489B49B4 /* Debug */,
 				55E470670164C246FA450ADF65072738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69769FE53659DAB73B012075B8C32081 /* Build configuration list for PBXNativeTarget "SQLCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6BC65474AB8C035E56C1CDBDF9C6C55 /* Debug */,
+				2DF0F32DE5BB6C12B3C7431D3654E2B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1298,11 +1095,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB8DC9FE9EA5729EE86B9044E37C55C0 /* Build configuration list for PBXNativeTarget "EncryptedCoreData" */ = {
+		F9EA98A00CD457CC422E63A6E6895696 /* Build configuration list for PBXNativeTarget "Pods-Sync-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1C2C6A6ECE5C25CA119FC9116511DAF /* Debug */,
-				7FB36BCE31D87AA19A93F5CFEADC9F6D /* Release */,
+				FC078C156980D75B536CACD715F76587 /* Debug */,
+				E52BFDFA2071894ECA002A00CB944433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

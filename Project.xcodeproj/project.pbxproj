@@ -502,6 +502,17 @@
 		14F6277A1E7AE6E1001C2EA0 /* DataStack.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1467388B1E7ADBA700913C8E /* DataStack.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AFF18CB1FE1F08900C4BC3D /* 457-products.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF18C91FE1F08800C4BC3D /* 457-products.json */; };
 		1AFF18CC1FE1F08900C4BC3D /* 457-subcategories.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF18CA1FE1F08800C4BC3D /* 457-subcategories.json */; };
+		1FD688EE231E9E55008121A4 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD688EC231E9E55008121A4 /* EncryptedStore.m */; };
+		1FD688EF231E9E55008121A4 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD688EC231E9E55008121A4 /* EncryptedStore.m */; };
+		1FD688F0231E9E55008121A4 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD688EC231E9E55008121A4 /* EncryptedStore.m */; };
+		1FD688F1231E9E55008121A4 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD688EC231E9E55008121A4 /* EncryptedStore.m */; };
+		1FD688F2231E9E55008121A4 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD688EC231E9E55008121A4 /* EncryptedStore.m */; };
+		1FD688F3231E9E55008121A4 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD688EC231E9E55008121A4 /* EncryptedStore.m */; };
+		1FD688F4231E9E55008121A4 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD688EC231E9E55008121A4 /* EncryptedStore.m */; };
+		1FD688F5231E9E55008121A4 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD688ED231E9E55008121A4 /* EncryptedStore.h */; };
+		1FD688F6231E9E55008121A4 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD688ED231E9E55008121A4 /* EncryptedStore.h */; };
+		1FD688F7231E9E55008121A4 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD688ED231E9E55008121A4 /* EncryptedStore.h */; };
+		1FD688F8231E9E55008121A4 /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD688ED231E9E55008121A4 /* EncryptedStore.h */; };
 		25A89F821F00ED7E008ADD4B /* Sync+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FF6201F0002A3004A923A /* Sync+ObjC.swift */; };
 		25A89F831F00ED7E008ADD4B /* Sync+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FF6201F0002A3004A923A /* Sync+ObjC.swift */; };
 		25A89F841F00ED7F008ADD4B /* Sync+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FF6201F0002A3004A923A /* Sync+ObjC.swift */; };
@@ -1005,6 +1016,8 @@
 		14E93C431DBCCD2800E3304E /* Sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sync.h; sourceTree = "<group>"; };
 		1AFF18C91FE1F08800C4BC3D /* 457-products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "457-products.json"; sourceTree = "<group>"; };
 		1AFF18CA1FE1F08800C4BC3D /* 457-subcategories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "457-subcategories.json"; sourceTree = "<group>"; };
+		1FD688EC231E9E55008121A4 /* EncryptedStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptedStore.m; sourceTree = "<group>"; };
+		1FD688ED231E9E55008121A4 /* EncryptedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptedStore.h; sourceTree = "<group>"; };
 		26930180AA2D9091982135A3 /* Pods_Sync_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sync_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6E3BD986C05B52223517B6 /* Pods-Sync-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sync-macOS.debug.xcconfig"; path = "Target Support Files/Pods-Sync-macOS/Pods-Sync-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		42D6472A3BCF8CD604FF989E /* Pods-Sync-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sync-watchOS.debug.xcconfig"; path = "Target Support Files/Pods-Sync-watchOS/Pods-Sync-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1174,6 +1187,8 @@
 		1425D59A1CC65BEB00EC49D4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1FD688ED231E9E55008121A4 /* EncryptedStore.h */,
+				1FD688EC231E9E55008121A4 /* EncryptedStore.m */,
 				445D3BB71D9F932C007F9E26 /* DataFilter */,
 				1467388A1E7ADBA700913C8E /* DataStack */,
 				14D93BFD1E4E65C700DED595 /* DateParser */,
@@ -1690,6 +1705,7 @@
 				447409331E87BA4E0035B8DC /* NSManagedObject+PropertyMapperHelpers.h in Headers */,
 				14D93C4E1E4E67A200DED595 /* NSManagedObjectContext+Sync.swift in Headers */,
 				14D93C4F1E4E67A200DED595 /* Result.swift in Headers */,
+				1FD688F5231E9E55008121A4 /* EncryptedStore.h in Headers */,
 				44CFE6871E87BC650068185B /* Inflections.h in Headers */,
 				445851F41E87BB590025434E /* NSEntityDescription+PrimaryKey.h in Headers */,
 				44B212F41E87BD5D00C81949 /* NSPropertyDescription+Sync.h in Headers */,
@@ -1713,6 +1729,7 @@
 				4474093E1E87BA4E0035B8DC /* PropertyMapper.h in Headers */,
 				447409361E87BA4E0035B8DC /* NSManagedObject+PropertyMapperHelpers.h in Headers */,
 				14F627771E7AE6B5001C2EA0 /* NSManagedObjectContext+Sync.swift in Headers */,
+				1FD688F8231E9E55008121A4 /* EncryptedStore.h in Headers */,
 				44CFE68A1E87BC650068185B /* Inflections.h in Headers */,
 				445851F71E87BB590025434E /* NSEntityDescription+PrimaryKey.h in Headers */,
 				44B212F71E87BD5D00C81949 /* NSPropertyDescription+Sync.h in Headers */,
@@ -1736,6 +1753,7 @@
 				4474093C1E87BA4E0035B8DC /* PropertyMapper.h in Headers */,
 				44CFE6881E87BC650068185B /* Inflections.h in Headers */,
 				447409341E87BA4E0035B8DC /* NSManagedObject+PropertyMapperHelpers.h in Headers */,
+				1FD688F6231E9E55008121A4 /* EncryptedStore.h in Headers */,
 				14A84E9C1E4E70B900701B8A /* Result.swift in Headers */,
 				445851F51E87BB590025434E /* NSEntityDescription+PrimaryKey.h in Headers */,
 				44B212F51E87BD5D00C81949 /* NSPropertyDescription+Sync.h in Headers */,
@@ -1759,6 +1777,7 @@
 				4474093D1E87BA4E0035B8DC /* PropertyMapper.h in Headers */,
 				447409351E87BA4E0035B8DC /* NSManagedObject+PropertyMapperHelpers.h in Headers */,
 				14F627681E7AE6B2001C2EA0 /* NSManagedObjectContext+Sync.swift in Headers */,
+				1FD688F7231E9E55008121A4 /* EncryptedStore.h in Headers */,
 				44CFE6891E87BC650068185B /* Inflections.h in Headers */,
 				445851F61E87BB590025434E /* NSEntityDescription+PrimaryKey.h in Headers */,
 				44B212F61E87BD5D00C81949 /* NSPropertyDescription+Sync.h in Headers */,
@@ -2456,6 +2475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD688F1231E9E55008121A4 /* EncryptedStore.m in Sources */,
 				25A89F821F00ED7E008ADD4B /* Sync+ObjC.swift in Sources */,
 				14241EA01DBC3A6F0042ED81 /* NSArray+Sync.swift in Sources */,
 				44B212F81E87BD5D00C81949 /* NSPropertyDescription+Sync.m in Sources */,
@@ -2484,6 +2504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD688F4231E9E55008121A4 /* EncryptedStore.m in Sources */,
 				25A89F851F00ED7F008ADD4B /* Sync+ObjC.swift in Sources */,
 				14241EA81DBC3A770042ED81 /* NSArray+Sync.swift in Sources */,
 				44B212FB1E87BD5D00C81949 /* NSPropertyDescription+Sync.m in Sources */,
@@ -2512,6 +2533,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD688F2231E9E55008121A4 /* EncryptedStore.m in Sources */,
 				25A89F831F00ED7E008ADD4B /* Sync+ObjC.swift in Sources */,
 				14241EB01DBC3A7F0042ED81 /* NSArray+Sync.swift in Sources */,
 				44B212F91E87BD5D00C81949 /* NSPropertyDescription+Sync.m in Sources */,
@@ -2540,6 +2562,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD688F3231E9E55008121A4 /* EncryptedStore.m in Sources */,
 				25A89F841F00ED7F008ADD4B /* Sync+ObjC.swift in Sources */,
 				14241EB81DBC3A880042ED81 /* NSArray+Sync.swift in Sources */,
 				44B212FA1E87BD5D00C81949 /* NSPropertyDescription+Sync.m in Sources */,
@@ -2574,6 +2597,7 @@
 				14867F291E7AF4D2001D228A /* Recursive.xcdatamodeld in Sources */,
 				14867F051E7AF4D2001D228A /* 84.xcdatamodeld in Sources */,
 				14867EE41E7AF4D2001D228A /* 225.xcdatamodeld in Sources */,
+				1FD688EE231E9E55008121A4 /* EncryptedStore.m in Sources */,
 				445851D91E87BAF50025434E /* 142.xcdatamodeld in Sources */,
 				14867DF41E7AF4D2001D228A /* SimpleModel.xcdatamodel in Sources */,
 				14E6523D1E809E9C000E7CC6 /* NSPropertyDescription+SyncTests.swift in Sources */,
@@ -2676,6 +2700,7 @@
 				14867F061E7AF4D2001D228A /* 84.xcdatamodeld in Sources */,
 				14867EE51E7AF4D2001D228A /* 225.xcdatamodeld in Sources */,
 				445851DA1E87BAF50025434E /* 142.xcdatamodeld in Sources */,
+				1FD688EF231E9E55008121A4 /* EncryptedStore.m in Sources */,
 				14867DF51E7AF4D2001D228A /* SimpleModel.xcdatamodel in Sources */,
 				14E6523E1E809E9C000E7CC6 /* NSPropertyDescription+SyncTests.swift in Sources */,
 				14867F331E7AF4D2001D228A /* ToOne.xcdatamodeld in Sources */,
@@ -2778,6 +2803,7 @@
 				14867F071E7AF4D2001D228A /* 84.xcdatamodeld in Sources */,
 				14867EE61E7AF4D2001D228A /* 225.xcdatamodeld in Sources */,
 				445851DB1E87BAF60025434E /* 142.xcdatamodeld in Sources */,
+				1FD688F0231E9E55008121A4 /* EncryptedStore.m in Sources */,
 				14867DF61E7AF4D2001D228A /* SimpleModel.xcdatamodel in Sources */,
 				14E6523F1E809E9C000E7CC6 /* NSPropertyDescription+SyncTests.swift in Sources */,
 				14867F341E7AF4D2001D228A /* ToOne.xcdatamodeld in Sources */,
@@ -2896,7 +2922,6 @@
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/EncryptedCoreData/EncryptedCoreData.framework/Headers\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/SQLCipher/SQLCipher.framework/Headers\"",
-					"$(PODS_ROOT)/SQLCipher",
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
