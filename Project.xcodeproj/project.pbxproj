@@ -1018,6 +1018,7 @@
 		1AFF18CA1FE1F08800C4BC3D /* 457-subcategories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "457-subcategories.json"; sourceTree = "<group>"; };
 		1FD688EC231E9E55008121A4 /* EncryptedStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptedStore.m; sourceTree = "<group>"; };
 		1FD688ED231E9E55008121A4 /* EncryptedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptedStore.h; sourceTree = "<group>"; };
+		1FD688FF231EA1AA008121A4 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		26930180AA2D9091982135A3 /* Pods_Sync_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sync_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6E3BD986C05B52223517B6 /* Pods-Sync-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sync-macOS.debug.xcconfig"; path = "Target Support Files/Pods-Sync-macOS/Pods-Sync-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		42D6472A3BCF8CD604FF989E /* Pods-Sync-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sync-watchOS.debug.xcconfig"; path = "Target Support Files/Pods-Sync-watchOS/Pods-Sync-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1187,6 +1188,7 @@
 		1425D59A1CC65BEB00EC49D4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1FD688FE231EA181008121A4 /* EncryptedStore */,
 				1FD688ED231E9E55008121A4 /* EncryptedStore.h */,
 				1FD688EC231E9E55008121A4 /* EncryptedStore.m */,
 				445D3BB71D9F932C007F9E26 /* DataFilter */,
@@ -1531,6 +1533,14 @@
 				14D93BFF1E4E65C700DED595 /* NSDate+PropertyMapper.m */,
 			);
 			path = DateParser;
+			sourceTree = "<group>";
+		};
+		1FD688FE231EA181008121A4 /* EncryptedStore */ = {
+			isa = PBXGroup;
+			children = (
+				1FD688FF231EA1AA008121A4 /* module.modulemap */,
+			);
+			path = EncryptedStore;
 			sourceTree = "<group>";
 		};
 		4458519B1E87BAF50025434E /* PropertyMapper */ = {
@@ -2932,6 +2942,7 @@
 				PRODUCT_NAME = Sync;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Source/EncryptedStore";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2962,6 +2973,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = club.syncdb.sync;
 				PRODUCT_NAME = Sync;
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Source/EncryptedStore";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

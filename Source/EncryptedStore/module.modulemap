@@ -1,0 +1,4 @@
+module EncryptedStore {
+    header "../EncryptedStore.h"
+    export *
+}

@@ -1,6 +1,6 @@
 import Foundation
 import CoreData
-import EncryptedCoreData
+import EncryptedStore
 
 @objc public enum DataStackStoreType: Int {
     case inMemory, sqLite
